@@ -1,5 +1,4 @@
 # 生成激活码
-
 import random
 import string
 

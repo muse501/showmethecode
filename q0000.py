@@ -1,12 +1,9 @@
 # 图片右上角添加数字
-
 from PIL import Image, ImageFont, ImageDraw
 
 
 def add_badge(input_file, output_file, fontsize, margin=0, output_size=None):
-    '''
-    先压缩后添加标识符
-    '''
+    ''' 先压缩后添加标识符 '''
     im = Image.open(input_file)
     if output_size:
         im = im.resize(output_size)

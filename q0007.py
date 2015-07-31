@@ -1,10 +1,9 @@
 # 统计代码行数，空行数，注释行数
-from q0005 import find_suffix
-
 import os
 
 from collections import Counter
 from pprint import pprint
+from q0005 import find_suffix
 
 
 def count_lines(*data):
