@@ -27,7 +27,6 @@ def fetch_imgs(url, save_dir, exts=None):
 
 
 if __name__ == '__main__':
-    # url = 'http://tieba.baidu.com/p/2166231880'
-    url = 'http://xxxsexxx.tumblr.com/'
-    save_dir = './q0013/'
+    url = 'http://tieba.baidu.com/p/2166231880'
+    save_dir = '.'
     fetch_imgs(url, save_dir, ['.gif'])

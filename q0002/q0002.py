@@ -1,7 +1,9 @@
 # 存入mysql
 import torndb
+import sys
 
-from q0001 import generate_keyset
+sys.path.append('..')
+from q0001.q0001 import generate_keyset
 
 
 if __name__ == '__main__':

@@ -42,4 +42,4 @@ def copy_json_into_excel(json_path):
     return json_data
 
 if __name__ == '__main__':
-    data = copy_json_into_excel('q0014/student.txt')
+    data = copy_json_into_excel('student.txt')

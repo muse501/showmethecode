@@ -29,7 +29,7 @@ def find_suffix(root_path, suffix_list, verbose=False):
 
 if __name__ == '__main__':
     print('- start working ..')
-    img_list = find_suffix('./q0005', ['.jpg'])
+    img_list = find_suffix('.', ['.jpg'])
     for img_file in img_list:
         try:
             resize_img(img_file)

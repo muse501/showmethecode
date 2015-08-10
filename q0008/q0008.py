@@ -17,8 +17,7 @@ def get_string(data):
             return child
 
 if __name__ == '__main__':
-    # url = 'http://jproxy.io/account/home/'
-    url = 'https://www.83chedai.com/'
+    url = 'http://jproxy.io/account/home/'
     resp = BeautifulSoup(requests.get(url).text, 'lxml')
     # 只搜索 p h* title 元素
     re_obj = re.compile(r'^(p|h(\d)|title)$')

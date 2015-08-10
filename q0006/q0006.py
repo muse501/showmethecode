@@ -1,9 +1,10 @@
 # 检索出文章中的关键词
 import os
-
 from pprint import pprint
-from q0004 import count_words
-from q0005 import find_suffix
+import sys
+sys.path.append('..')
+from q0004.q0004 import count_words
+from q0005.q0005 import find_suffix
 
 
 def find_unmatched_words(data, match_level, verbose=False):
@@ -32,7 +33,7 @@ if __name__ == '__main__':
     MATCH_LEVEL = 40
 
     wl = {}
-    file_list = find_suffix('./q0006', '.txt')
+    file_list = find_suffix('.', '.txt')
 
     for fn in file_list:
         try:
